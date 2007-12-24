@@ -399,6 +399,9 @@ UNIVERSALLY UNIQUE IDENTIFIERS
 
         __PACKAGE__->sequence('uuid');
 
+MAINTAINERS
+    Fred Moyer <fred@redhotpenguin.com>
+
 AUTHORS
     Christian Hansen <ch@ngmedia.com>
 
@@ -408,7 +411,7 @@ AUTHORS
 
 THANKS TO
     Danijel Milicevic, Jesse Sheidlower, Marcus Ramberg, Sebastian Riedel,
-    Viljo Marrandi
+    Viljo Marrandi, Bill Moseley
 
 SUPPORT
     #catalyst on <irc://irc.perl.org>
