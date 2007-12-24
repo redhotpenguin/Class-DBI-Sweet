@@ -1,6 +1,6 @@
 use Test::More;
 use Class::DBI::Sweet;
-eval "use Cache::MemoryCache"
+eval "use Cache::MemoryCache";
 plan skip_all => 'Cache::MemoryCache needed to test POD.' if $@;
 
 Class::DBI::Sweet->default_search_attributes({ use_resultset_cache => 0 });
