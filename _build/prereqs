@@ -1,0 +1,15 @@
+{
+          'build_requires' => {},
+          'conflicts' => {},
+          'requires' => {
+                          'SQL::Abstract' => '1.17',
+                          'List::Util' => 0,
+                          'Data::Page' => 0,
+                          'DBD::SQLite' => '1.08',
+                          'Class::DBI' => 'v3.0.12',
+                          'DBI' => 0
+                        },
+          'recommends' => {
+                            'Data::UUID' => 0
+                          }
+        }

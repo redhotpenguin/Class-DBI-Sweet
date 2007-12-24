@@ -1,0 +1,342 @@
+[
+          {
+            'ARGV' => []
+          },
+          {},
+          {
+            'verbose' => undef,
+            'PL_files' => undef,
+            'pollute' => undef,
+            'bindoc_dirs' => [
+                               'blib/script'
+                             ],
+            'conflicts' => {},
+            'scripts' => undef,
+            'recommends' => {
+                              'Data::UUID' => 0
+                            },
+            'dist_version' => bless( {
+                                       'original' => '0.09',
+                                       'version' => [
+                                                      0,
+                                                      90
+                                                    ]
+                                     }, 'Module::Build::Version' ),
+            'pod_files' => undef,
+            'config_dir' => '_build',
+            'recurse_into' => [],
+            'build_bat' => 0,
+            'extra_linker_flags' => [],
+            'build_class' => 'Module::Build',
+            'prereq_action_types' => [
+                                       'requires',
+                                       'build_requires',
+                                       'conflicts',
+                                       'recommends'
+                                     ],
+            'base_dir' => '/Users/phred/dev/svn/class_dbi_sweet/trunk',
+            'allow_mb_mismatch' => 0,
+            'xs_files' => undef,
+            'destdir' => undef,
+            'metafile' => 'META.yml',
+            'mb_version' => '0.2808',
+            'has_config_data' => undef,
+            'dist_name' => 'Class-DBI-Sweet',
+            'install_base' => undef,
+            'module_name' => 'Class::DBI::Sweet',
+            'recursive_test_files' => undef,
+            'libdoc_dirs' => [
+                               'blib/lib',
+                               'blib/arch'
+                             ],
+            'perl' => '/Users/phred/dev/perl/bin/perl',
+            'dist_author' => undef,
+            'use_rcfile' => 1,
+            'test_files' => [
+                              't/01use.t',
+                              't/02pod.t',
+                              't/03podcoverage.t',
+                              't/04join.t',
+                              't/05count.t',
+                              't/06object_cache.t',
+                              't/07prefetch.t',
+                              't/08pager.t',
+                              't/09sequence.t',
+                              't/cdbi-t-ocache/01-columns.t',
+                              't/cdbi-t-ocache/03-subclassing.t',
+                              't/cdbi-t-ocache/05-Query.t',
+                              't/cdbi-t-ocache/06-hasa.t',
+                              't/cdbi-t-ocache/08-inheritcols.t',
+                              't/cdbi-t-ocache/09-has_many.t',
+                              't/cdbi-t-ocache/10-mysql.t',
+                              't/cdbi-t-ocache/11-triggers.t',
+                              't/cdbi-t-ocache/12-filter.t',
+                              't/cdbi-t-ocache/13-constraint.t',
+                              't/cdbi-t-ocache/14-might_have.t',
+                              't/cdbi-t-ocache/16-reserved.t',
+                              't/cdbi-t-ocache/17-data_type.t',
+                              't/cdbi-t-ocache/18-has_a.t',
+                              't/cdbi-t-ocache/19-set_sql.t',
+                              't/cdbi-t-ocache/21-iterator.t',
+                              't/cdbi-t-ocache/22-deflate_order.t',
+                              't/cdbi-t-ocache/23-cascade.t',
+                              't/cdbi-t-ocache/24-meta_info.t',
+                              't/cdbi-t-ocache/25-closures_in_meta.t',
+                              't/cdbi-t-ocache/97-pod.t',
+                              't/cdbi-t-ocache/98-failure.t',
+                              't/cdbi-t-ocache/99-misc.t',
+                              't/cdbi-t-rescache/01-columns.t',
+                              't/cdbi-t-rescache/03-subclassing.t',
+                              't/cdbi-t-rescache/05-Query.t',
+                              't/cdbi-t-rescache/06-hasa.t',
+                              't/cdbi-t-rescache/08-inheritcols.t',
+                              't/cdbi-t-rescache/09-has_many.t',
+                              't/cdbi-t-rescache/10-mysql.t',
+                              't/cdbi-t-rescache/11-triggers.t',
+                              't/cdbi-t-rescache/12-filter.t',
+                              't/cdbi-t-rescache/13-constraint.t',
+                              't/cdbi-t-rescache/14-might_have.t',
+                              't/cdbi-t-rescache/16-reserved.t',
+                              't/cdbi-t-rescache/17-data_type.t',
+                              't/cdbi-t-rescache/18-has_a.t',
+                              't/cdbi-t-rescache/19-set_sql.t',
+                              't/cdbi-t-rescache/21-iterator.t',
+                              't/cdbi-t-rescache/22-deflate_order.t',
+                              't/cdbi-t-rescache/23-cascade.t',
+                              't/cdbi-t-rescache/24-meta_info.t',
+                              't/cdbi-t-rescache/25-closures_in_meta.t',
+                              't/cdbi-t-rescache/97-pod.t',
+                              't/cdbi-t-rescache/98-failure.t',
+                              't/cdbi-t-rescache/99-misc.t',
+                              't/cdbi-t/01-columns.t',
+                              't/cdbi-t/02-Film.t',
+                              't/cdbi-t/03-subclassing.t',
+                              't/cdbi-t/04-lazy.t',
+                              't/cdbi-t/05-Query.t',
+                              't/cdbi-t/06-hasa.t',
+                              't/cdbi-t/08-inheritcols.t',
+                              't/cdbi-t/09-has_many.t',
+                              't/cdbi-t/10-mysql.t',
+                              't/cdbi-t/11-triggers.t',
+                              't/cdbi-t/12-filter.t',
+                              't/cdbi-t/13-constraint.t',
+                              't/cdbi-t/14-might_have.t',
+                              't/cdbi-t/17-data_type.t',
+                              't/cdbi-t/18-has_a.t',
+                              't/cdbi-t/19-set_sql.t',
+                              't/cdbi-t/21-iterator.t',
+                              't/cdbi-t/22-deflate_order.t',
+                              't/cdbi-t/23-cascade.t',
+                              't/cdbi-t/24-meta_info.t',
+                              't/cdbi-t/25-closures_in_meta.t',
+                              't/cdbi-t/97-pod.t',
+                              't/cdbi-t/98-failure.t',
+                              't/cdbi-t/99-misc.t'
+                            ],
+            'dist_abstract' => undef,
+            'create_readme' => 1,
+            'prefix_relpaths' => {
+                                   'core' => {
+                                               'libdoc' => [
+                                                             'man',
+                                                             'man3'
+                                                           ],
+                                               'script' => [
+                                                             'bin'
+                                                           ],
+                                               'libhtml' => [
+                                                              'html'
+                                                            ],
+                                               'bindoc' => [
+                                                             'man',
+                                                             'man1'
+                                                           ],
+                                               'bin' => [
+                                                          'bin'
+                                                        ],
+                                               'arch' => [
+                                                           'lib',
+                                                           '5.8.8',
+                                                           'darwin-2level'
+                                                         ],
+                                               'binhtml' => [
+                                                              'html'
+                                                            ],
+                                               'lib' => [
+                                                          'lib'
+                                                        ]
+                                             },
+                                   'site' => {
+                                               'libdoc' => [
+                                                             'man',
+                                                             'man3'
+                                                           ],
+                                               'script' => [
+                                                             'bin'
+                                                           ],
+                                               'libhtml' => [
+                                                              'html'
+                                                            ],
+                                               'bindoc' => [
+                                                             'man',
+                                                             'man1'
+                                                           ],
+                                               'bin' => [
+                                                          'bin'
+                                                        ],
+                                               'arch' => [
+                                                           'lib',
+                                                           'site_perl',
+                                                           '5.8.8',
+                                                           'darwin-2level'
+                                                         ],
+                                               'binhtml' => [
+                                                              'html'
+                                                            ],
+                                               'lib' => [
+                                                          'lib',
+                                                          'site_perl'
+                                                        ]
+                                             },
+                                   'vendor' => {
+                                                 'libdoc' => [
+                                                               'man',
+                                                               'man3'
+                                                             ],
+                                                 'script' => [
+                                                               'bin'
+                                                             ],
+                                                 'libhtml' => [
+                                                                'html'
+                                                              ],
+                                                 'bindoc' => [
+                                                               'man',
+                                                               'man1'
+                                                             ],
+                                                 'bin' => [
+                                                            'bin'
+                                                          ],
+                                                 'arch' => [
+                                                             'lib',
+                                                             '5.8.8',
+                                                             'darwin-2level'
+                                                           ],
+                                                 'binhtml' => [
+                                                                'html'
+                                                              ],
+                                                 'lib' => [
+                                                            'lib'
+                                                          ]
+                                               }
+                                 },
+            'meta_merge' => {},
+            'get_options' => {},
+            'dist_version_from' => 'lib/Class/DBI/Sweet.pm',
+            'debugger' => undef,
+            'html_css' => '',
+            'build_elements' => [
+                                  'PL',
+                                  'support',
+                                  'pm',
+                                  'xs',
+                                  'pod',
+                                  'script'
+                                ],
+            'orig_dir' => '/Users/phred/dev/svn/class_dbi_sweet/trunk',
+            'include_dirs' => [],
+            'installdirs' => 'site',
+            'create_makefile_pl' => 'passthrough',
+            'magic_number' => undef,
+            'install_sets' => {
+                                'core' => {
+                                            'libdoc' => '/Users/phred/dev/perl/man/man3',
+                                            'script' => '/Users/phred/dev/perl/bin',
+                                            'libhtml' => undef,
+                                            'bindoc' => '/Users/phred/dev/perl/man/man1',
+                                            'bin' => '/Users/phred/dev/perl/bin',
+                                            'arch' => '/Users/phred/dev/perl/lib/5.8.8/darwin-2level',
+                                            'binhtml' => undef,
+                                            'lib' => '/Users/phred/dev/perl/lib/5.8.8'
+                                          },
+                                'site' => {
+                                            'libdoc' => '/Users/phred/dev/perl/man/man3',
+                                            'script' => '/Users/phred/dev/perl/bin',
+                                            'libhtml' => undef,
+                                            'bindoc' => '/Users/phred/dev/perl/man/man1',
+                                            'bin' => '/Users/phred/dev/perl/bin',
+                                            'arch' => '/Users/phred/dev/perl/lib/site_perl/5.8.8/darwin-2level',
+                                            'binhtml' => undef,
+                                            'lib' => '/Users/phred/dev/perl/lib/site_perl/5.8.8'
+                                          },
+                                'vendor' => {
+                                              'libdoc' => '/Users/phred/dev/perl/man/man3',
+                                              'script' => '/Users/phred/dev/perl/bin',
+                                              'libhtml' => undef,
+                                              'bindoc' => '/Users/phred/dev/perl/man/man1',
+                                              'bin' => '/Users/phred/dev/perl/bin',
+                                              'arch' => '',
+                                              'binhtml' => undef,
+                                              'lib' => ''
+                                            }
+                              },
+            'install_base_relpaths' => {
+                                         'libdoc' => [
+                                                       'man',
+                                                       'man3'
+                                                     ],
+                                         'script' => [
+                                                       'bin'
+                                                     ],
+                                         'libhtml' => [
+                                                        'html'
+                                                      ],
+                                         'bindoc' => [
+                                                       'man',
+                                                       'man1'
+                                                     ],
+                                         'bin' => [
+                                                    'bin'
+                                                  ],
+                                         'arch' => [
+                                                     'lib',
+                                                     'perl5',
+                                                     'darwin-2level'
+                                                   ],
+                                         'binhtml' => [
+                                                        'html'
+                                                      ],
+                                         'lib' => [
+                                                    'lib',
+                                                    'perl5'
+                                                  ]
+                                       },
+            'meta_add' => {},
+            'create_packlist' => 1,
+            'requires' => {
+                            'SQL::Abstract' => '1.17',
+                            'List::Util' => 0,
+                            'Data::Page' => 0,
+                            'DBD::SQLite' => '1.08',
+                            'Class::DBI' => 'v3.0.12',
+                            'DBI' => 0
+                          },
+            'install_path' => {},
+            'pm_files' => undef,
+            'quiet' => undef,
+            'extra_compiler_flags' => [],
+            'script_files' => undef,
+            'build_script' => 'Build',
+            'original_prefix' => {
+                                   'core' => '/Users/phred/dev/perl',
+                                   'site' => '/Users/phred/dev/perl',
+                                   'vendor' => ''
+                                 },
+            'c_source' => undef,
+            'license' => 'perl',
+            'autosplit' => undef,
+            'build_requires' => {},
+            'config' => undef,
+            'blib' => 'blib',
+            'prefix' => undef
+          }
+        ]
