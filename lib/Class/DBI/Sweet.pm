@@ -1278,6 +1278,10 @@ column is suitable for storage.
 
     __PACKAGE__->sequence('uuid');
 
+=head1 MAINTAINERS
+
+Fred Moyer <fred@redhotpenguin.com>
+
 =head1 AUTHORS
 
 Christian Hansen <ch@ngmedia.com>
@@ -1289,7 +1293,7 @@ Andy Grundman <andy@hybridized.org>
 =head1 THANKS TO
 
 Danijel Milicevic, Jesse Sheidlower, Marcus Ramberg, Sebastian Riedel,
-Viljo Marrandi
+Viljo Marrandi, Bill Moseley
 
 =head1 SUPPORT
 

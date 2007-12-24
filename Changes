@@ -1,6 +1,6 @@
 Revision history for Perl extension Class::DBI::Sweet
 
-0.09
+0.09 Sun Dec 23 23:51:36 PST 2005
     - fix spelling error which resulted in broken POD link, Jonas B. Nielsen
     - check for Cache::MemoryCache and skip tests if not present, Rhesa Rozendaal
     - fix 'bizzare copy of HASH in leave' issue, David Morgan, Randal Schwartz

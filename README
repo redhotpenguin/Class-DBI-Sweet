@@ -114,7 +114,7 @@ RETRIEVING OBJECTS
 
   attributes
     case, cmp, convert, and logic
-        These attributes are passed to SQL::Abstact's constuctor and alter
+        These attributes are passed to SQL::Abstract's constuctor and alter
         the behavior of the criteria.
 
             { cmp => 'like' }

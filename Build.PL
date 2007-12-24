@@ -13,6 +13,7 @@ my %arguments = (
         'SQL::Abstract' => 1.17,
         'DBD::SQLite'   => 1.08
     },
+    dist_abstract      => 'lib/Class/DBI/Sweet.pm',
     create_makefile_pl => 'passthrough',
     create_readme      => 1,
     test_files         => [ glob('t/*.t'), glob('t/*/*.t') ]

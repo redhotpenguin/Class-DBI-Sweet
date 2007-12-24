@@ -1,9 +1,14 @@
 ---
 name: Class-DBI-Sweet
-version: 0.08
-author: ~
-abstract: ~
+version: 0.09
+author:
+  - 'Christian Hansen <ch@ngmedia.com>'
+  - 'Matt S Trout <mstrout@cpan.org>'
+  - 'Andy Grundman <andy@hybridized.org>'
+abstract: lib/Class/DBI/Sweet.pm
 license: perl
+resources:
+  license: http://dev.perl.org/licenses/
 requires:
   Class::DBI: v3.0.12
   DBD::SQLite: 1.08
@@ -16,7 +21,12 @@ recommends:
 provides:
   Class::DBI::Sweet:
     file: lib/Class/DBI/Sweet.pm
-    version: 0.08
+    version: 0.09
+  Class::DBI::Sweet::SQL::Abstract:
+    file: lib/Class/DBI/Sweet.pm
   Class::DBI::Sweet::Topping:
     file: lib/Class/DBI/Sweet/Topping.pm
-generated_by: Module::Build version 0.2611
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
