@@ -1,7 +1,7 @@
 Revision history for Perl extension Class::DBI::Sweet
 
 0.09
-    - fix 'bizzare copy of HASH in leave' issue, David Morgan
+    - fix 'bizzare copy of HASH in leave' issue, David Morgan, Randal Schwartz
     - mutiple trigger registration in one add_trigger() call is deprecated,
       update test 11 to reflect that, Bill Moseley <moseley@hank.org>
 
