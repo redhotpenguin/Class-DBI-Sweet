@@ -2,6 +2,7 @@ Build.PL
 Changes
 lib/Class/DBI/Sweet.pm
 lib/Class/DBI/Sweet/Topping.pm
+Makefile.PL
 MANIFEST			This list of files
 META.yml
 README
