@@ -967,7 +967,7 @@ will be deflated before querying the database.
 
 =item case, cmp, convert, and logic
 
-These attributes are passed to L<SQL::Abstact>'s constuctor and alter the
+These attributes are passed to L<SQL::Abstract>'s constuctor and alter the
 behavior of the criteria.
 
     { cmp => 'like' }
