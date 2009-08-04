@@ -10,7 +10,7 @@ my %arguments = (
         'Data::Page'    => 0,
         'DBI'           => 0,
         'List::Util'    => 0,
-        'SQL::Abstract' => 1.17,
+        'SQL::Abstract' => 1.55,
         'DBD::SQLite'   => 1.08
     },
     dist_abstract      => 'lib/Class/DBI/Sweet.pm',

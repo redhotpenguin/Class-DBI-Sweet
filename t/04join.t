@@ -29,7 +29,7 @@ my ($sql) = $cds[0]->_search({ 'artist.name' => 'Spoon' });
 
 is($sql->{from}, "cd me, artist artist", "FROM statement ok");
 
-is($sql->{where}, "( artist.name = ? ) AND me.artist = artist.artistid",
+is($sql->{where}, "artist.name = ? AND me.artist = artist.artistid",
     "WHERE clause ok");
 
 cmp_ok($cds[2]->year, '==', 2001, "Last CD returned correctly");

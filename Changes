@@ -1,6 +1,7 @@
 Revision history for Perl extension Class::DBI::Sweet
 
-0.10
+0.10 Mon Aug 03 20:20:18 PST 2009
+    - SQL::Abstract 1.55 compatibility, Damyan Ivanov
 
 0.09 Sun Dec 23 23:51:36 PST 2007
     - fix spelling error which resulted in broken POD link, Jonas B. Nielsen
