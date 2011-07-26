@@ -9,8 +9,8 @@ package main;
 
 BEGIN {
 	eval "use Cache::MemoryCache";
-	plan skip_all => "needs Cache::Cache for testing" if $@;
-	eval { require 't/cdbi-t/testlib/MyBase.pm' };
+
+    eval { require 't/cdbi-t/testlib/MyBase.pm' };
 	plan skip_all => "Need MySQL for this test" if $@;
 
 	eval "use DateTime::Format::MySQL";

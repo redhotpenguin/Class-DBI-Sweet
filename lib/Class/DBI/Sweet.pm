@@ -25,7 +25,7 @@ else {
 
 our $UUID_Is_Available = ( $@ ? 0 : 1 );
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 #----------------------------------------------------------------------
 # RETRIEVING
